@@ -1,0 +1,68 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+}
+.userList a i{
+	pointer-events: none;
+}
+.profile{
+	text-align: center;
+}
+.profile img {
+	width: 150px;
+	margin-top: 5px;
+	border-radius: 50%;
+	object-fit: cover;
+	height: 150px;
+	text-align: center;
+}
+.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.gallery-container .my-3 img {
+	width: 90px;
+	margin: 5px;
+	object-fit: cover;
+}
+.gallery-container .my-3 {
+	position: relative;
+}
+
+.gallery-container .my-3 i {
+	position: absolute;
+	font-size: 12px;
+	right: 10px;
+	top: 10px;
+	border: 1px solid black;
+	padding: 2px;
+	color: red;
+	display: none;
+	transition: 0.8;
+	cursor: pointer;
+}
+.gallery-container .my-3:hover i {
+	display: block;
+}
+table img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+img{
+	width: 100%;
+}
+
+.card{
+	margin: 0 auto;
+}
+.right{
+	height: 40vh;
+	overflow-y: auto;
+}
+
